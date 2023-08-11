@@ -16,7 +16,7 @@ const Experience = () => {
             title="Fresher"
             subTitle="Searching Job"
             result="Waiting"
-            des="If I get work with your company I will do my Best"
+            des="If I given opportunity to work your company, I will do my Best"
           />
          
         </div>

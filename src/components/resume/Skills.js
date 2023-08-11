@@ -1,5 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion';
+import { FaCss3, FaDatabase, FaHtml5, FaNode, FaNodeJs, FaReact } from 'react-icons/fa';
+import { SiExpress, SiJavascript, SiMongodb, SiPython } from 'react-icons/si';
 
 const Skills = () => {
   return (
@@ -16,9 +18,9 @@ const Skills = () => {
           <h2 className="text-3xl md:text-4xl font-bold">FrontEnd Skill</h2>
         </div>
         <div className='className="mt-14 w-full flex flex-col gap-6'>
-          <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">HTML</p>
-            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+          <div>
+            <p className="text-sm uppercase" style={{fontSize:"1.5rem",color:"orangered"}}><FaHtml5/>HTML5</p>
+            {/* <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
@@ -27,11 +29,11 @@ const Skills = () => {
               >
                 <span className="absolute -top-7 right-0">100%</span>
               </motion.span>
-            </span>
+            </span> */}
           </div>
-          <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">CSS3</p>
-            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+          <div>
+            <p className="text-sm uppercase font-medium" style={{fontSize:"1.5rem",color:"dodgerblue"}}><FaCss3/>CSS3</p>
+            {/* <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
@@ -40,11 +42,11 @@ const Skills = () => {
               >
                 <span className="absolute -top-7 right-0">100%</span>
               </motion.span>
-            </span>
+            </span> */}
           </div>
-          <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">JAVASCRIPT</p>
-            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+          <div>
+            <p className="text-sm uppercase font-medium" style={{fontSize:"1.5rem",color:"orange"}}><SiJavascript/>JAVASCRIPT</p>
+            {/* <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
@@ -53,11 +55,11 @@ const Skills = () => {
               >
                 <span className="absolute -top-7 right-0">100%</span>
               </motion.span>
-            </span>
+            </span> */}
           </div>
-          <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">REACT</p>
-            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+          <div>
+            <p className="text-sm uppercase font-medium" style={{fontSize:"1.5rem",color:"dodgerblue"}}><FaReact/>  REACT</p>
+            {/* <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
@@ -66,7 +68,7 @@ const Skills = () => {
               >
                 <span className="absolute -top-7 right-0">100%</span>
               </motion.span>
-            </span>
+            </span> */}
           </div>
         </div>
       </div>
@@ -79,9 +81,9 @@ const Skills = () => {
           <h2 className="text-3xl md:text-4xl font-bold">BackEnd Skill</h2>
         </div>
         <div className="flex flex-col gap-6">
-          <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">NODE JS</p>
-            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+          <div>
+            <p className="text-sm uppercase font-medium" style={{fontSize:"1.5rem",color:"green"}} ><FaNodeJs/> NODE JS</p>
+            {/* <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
@@ -90,11 +92,11 @@ const Skills = () => {
               >
                 <span className="absolute -top-7 right-0">100%</span>
               </motion.span>
-            </span>
+            </span> */}
           </div>
-          <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">EXPRESS JS</p>
-            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+          <div>
+            <p className="text-sm uppercase font-medium" style={{fontSize:"1.5rem",color:"#000000"}}><SiExpress/> EXPRESS JS</p>
+            {/* <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
@@ -103,11 +105,11 @@ const Skills = () => {
               >
                 <span className="absolute -top-7 right-0">100%</span>
               </motion.span>
-            </span>
+            </span> */}
           </div>
-          <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">MONGODB</p>
-            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+          <div >
+            <p className="text-sm uppercase font-medium" style={{fontSize:"1.5rem",color:"#589636"}}><SiMongodb/> MONGODB</p>
+            {/* <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
@@ -116,11 +118,11 @@ const Skills = () => {
               >
                 <span className="absolute -top-7 right-0">100%</span>
               </motion.span>
-            </span>
+            </span> */}
           </div>
-          <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">SOFTWARE</p>
-            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+          <div>
+            <p className="text-sm uppercase font-medium" style={{fontSize:"1.5rem",color:"#3776AB"}}><SiPython/> PYTHON</p>
+            {/* <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
@@ -129,7 +131,7 @@ const Skills = () => {
               >
                 <span className="absolute -top-7 right-0">100%</span>
               </motion.span>
-            </span>
+            </span> */}
           </div>
         </div>
       </div>
