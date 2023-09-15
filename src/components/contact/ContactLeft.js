@@ -1,6 +1,7 @@
-import React from 'react'
-import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import React from "react";
+import {  FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { contactImg } from "../../assets/index";
+import { HiOutlineMail } from "react-icons/hi";
 
 const ContactLeft = () => {
   return (
@@ -15,9 +16,7 @@ const ContactLeft = () => {
         <p className="text-lg font-normal text-gray-400">
           MERN Stack Developer
         </p>
-        <p className="text-base text-gray-400 tracking-wide">
-         
-        </p>
+        <p className="text-base text-gray-400 tracking-wide"></p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+91 6379974237</span>
         </p>
@@ -29,18 +28,25 @@ const ContactLeft = () => {
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <a href='https://www.facebook.com/siva.surya.9809/'><FaFacebookF/></a>
+            <a href="mailto:charusurya17@gmail.com" target="_blank">
+              <HiOutlineMail />
+            </a>
           </span>
           <span className="bannerIcon">
-          <a href='https://www.instagram.com/charliecarlos_/' target='_blank'><FaInstagram/></a>
+            <a href="https://www.instagram.com/charliecarlos_/" target="_blank">
+              <FaInstagram />
+            </a>
           </span>
           <span className="bannerIcon">
-            <a href='https://www.linkedin.com/in/suryaperumal/' target='_blank'> <FaLinkedinIn /></a>
+            <a href="https://www.linkedin.com/in/suryaperumal/" target="_blank">
+              {" "}
+              <FaLinkedinIn />
+            </a>
           </span>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default ContactLeft
+export default ContactLeft;

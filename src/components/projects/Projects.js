@@ -4,6 +4,10 @@ import {projectTwo} from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 import { ecom } from "../../assets/index";
 import chat from '../..//assets/images/projects/chatting.jpg'
+import { BsGithub } from "react-icons/bs";
+import gold from "../../assets/images/projects/gold.png"
+import food from '../../assets/images/projects/food.jpg'
+
 const Projects = () => {
   return (
     <section
@@ -12,7 +16,7 @@ const Projects = () => {
     >
       <div className="flex justify-center items-center text-center">
         <Title
-          title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"
+          title="VISIT MY PROJECT AND KEEP YOUR FEEDBACK"
           des="My Projects"
         />
       </div>
@@ -21,7 +25,9 @@ const Projects = () => {
         <ProjectsCard
           title="FoodOrder Website"
           des=""
-          src={ecom}
+          src={food}
+          button={<a  href="https://github.com/Surya-MERNstack/fooddelightclient" className="border-b-black hover:text-designColor"  target="_blank"> <BsGithub />FrontEnd SourceCode</a>}
+          buttons={<a href="https://github.com/Surya-MERNstack/fooddelightserver" className="border-b-black hover:text-designColor" target="_blank"> <BsGithub /> BackEnd SourceCode</a>}
         />
         </a>
         <a href="https://moneymanages.netlify.app/" target="_blank" rel="noreferrer" >
@@ -29,6 +35,8 @@ const Projects = () => {
           title="Money Manager App"
           des=""
           src={projectTwo}
+          button={<a  href="https://github.com/Surya-MERNstack/moneymanager" className="border-b-black hover:text-designColor"  target="_blank"> <BsGithub />FrontEnd SourceCode</a>}
+          buttons={<a href="https://github.com/Surya-MERNstack/Money_Manager_App/tree/master/server" className="border-b-black hover:text-designColor" target="_blank"> <BsGithub /> BackEnd SourceCode</a>}
         />
         </a>
 
@@ -36,6 +44,17 @@ const Projects = () => {
         <ProjectsCard
          title="VConnect Chat App"
          src={chat}
+         button={<a  href="https://github.com/Surya-MERNstack/chatclient" className="border-b-black hover:text-designColor"  target="_blank"> <BsGithub />FrontEnd SourceCode</a>}
+         buttons={<a href="https://github.com/Surya-MERNstack/chatserver" className="border-b-black hover:text-designColor" target="_blank"> <BsGithub /> BackEnd SourceCode</a>}
+        />
+        </a>
+
+        <a href="https://goldsratecalculator.netlify.app/" target="_blank" rel="noreferrer">
+        <ProjectsCard
+         title="Gold Calculator"
+         src={gold}
+         button={<a  href="https://github.com/Surya-MERNstack/Goldclient" className="border-b-black hover:text-designColor"  target="_blank"> <BsGithub />FrontEnd SourceCode</a>}
+         buttons={<a href="https://github.com/Surya-MERNstack/Gold_Server" className="border-b-black hover:text-designColor" target="_blank"> <BsGithub /> BackEnd SourceCode</a>}
         />
         </a>
       </div>

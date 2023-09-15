@@ -1,6 +1,6 @@
-import React from 'react'
-import { motion } from 'framer-motion';
-import ResumeCard from './ResumeCard';
+import React from "react";
+import { motion } from "framer-motion";
+import ResumeCard from "./ResumeCard";
 
 const Education = () => {
   return (
@@ -27,14 +27,14 @@ const Education = () => {
             des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
           />
           <ResumeCard
-            title="Secondary School Education"
-            subTitle="Pachamuthu  Secondary School (2016 - 2018)"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            title="FullStack Developer"
+            subTitle="Guvi (Grab Ur Vernacular Imprint)"
+            des="MernStack Developer I'm immensely thankful to Guvi for their crucial role in my journey as a MERN Stack developer. Their well-structured courses, supportive instructors, and practical projects have been invaluable in enhancing my skills. Guvi's dedication to education has been instrumental in helping me achieve my goals in web development"
           />
         </div>
       </div>
     </motion.div>
   );
-}
+};
 
-export default Education
+export default Education;

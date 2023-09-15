@@ -1,7 +1,8 @@
 import React from "react";
-import { BsInstagram } from "react-icons/bs";
-import { FaFacebookF, FaLinkedinIn, FaReact, FaNodeJs } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { FaDownload,FaLinkedinIn, FaReact, FaNodeJs } from "react-icons/fa";
 import { SiExpress, SiMongodb } from "react-icons/si";
+import { BsGithub } from "react-icons/bs";
 
 const Media = () => {
   return (
@@ -10,21 +11,31 @@ const Media = () => {
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <a href="https://www.facebook.com/siva.surya.9809/" target="_blank">
-              <FaFacebookF />
+            <a href="https://github.com/Surya-MERNstack" target="_blank">
+              <BsGithub />
             </a>
           </span>
           <span className="bannerIcon">
-            <a href="https://www.instagram.com/charliecarlos_/" target="_blank">
-              <BsInstagram />
+            <a href="mailto:charusurya17@gmail.com" target="_blank">
+              <HiOutlineMail />
             </a>
           </span>
           <span className="bannerIcon">
-            <a
-              href="https://www.linkedin.com/in/suryaperumal/"
-              target="_blank"
-            >
+            <a href="https://www.linkedin.com/in/suryaperumal/" target="_blank">
               <FaLinkedinIn />
+            </a>
+          </span>
+        </div>
+        <br/>
+        <div className="w-full bannerIcon -ml:23 flex flex-row ">
+          <span>
+            <a
+              href="https://drive.google.com/file/d/1VElT12KhgyGelLv-x1CVP2_coNMpd1j_/view"
+              target="_blank"
+              className="hover:text-designColor "
+            >
+              RESUME
+              <FaDownload />
             </a>
           </span>
         </div>

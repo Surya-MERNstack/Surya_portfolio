@@ -2,15 +2,11 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaLinkedinIn,
-  FaInstagram,
-} from "react-icons/fa";
+import { FaLinkedinIn, FaDownload } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
 import { suryalogo } from "../../assets";
 import { navLinksdata } from "../../constants";
-import { BsInstagram } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -24,6 +20,7 @@ const Navbar = () => {
           alt="logo"
         />
       </div>
+
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
           {navLinksdata.map(({ _id, title, link }) => (
@@ -89,18 +86,15 @@ const Navbar = () => {
                 <div className="flex gap-4">
                   <span className="bannerIcon">
                     <a
-                      href="https://www.facebook.com/siva.surya.9809/"
+                      href="https://github.com/Surya-MERNstack"
                       target="_blank"
                     >
-                      <FaFacebookF />
+                      <BsGithub />
                     </a>
                   </span>
                   <span className="bannerIcon">
-                    <a
-                      href="https://www.instagram.com/charliecarlos_/"
-                      target="_blank"
-                    >
-                      <BsInstagram />
+                    <a href="mailto:charusurya17@gmail.com" target="_blank">
+                      <HiOutlineMail />
                     </a>
                   </span>
                   <span className="bannerIcon">
@@ -112,6 +106,17 @@ const Navbar = () => {
                     </a>
                   </span>
                 </div>
+                <div className="w-full bannerIcon flex flex-row">
+                    <span>
+                      <a
+                        href="https://drive.google.com/file/d/1VElT12KhgyGelLv-x1CVP2_coNMpd1j_/view"
+                        target="_blank"
+                        className="hover:text-designColor "
+                      >
+                        RESUME<FaDownload />
+                      </a>
+                    </span>
+                  </div>
               </div>
               <span
                 onClick={() => setShowMenu(false)}

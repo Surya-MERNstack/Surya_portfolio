@@ -11,7 +11,7 @@ const Resume = () => {
   return (
     <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
       <div className="flex justify-center items-center text-center">
-        <Title  des="My Resume" />
+        <Title  des="About" />
       </div>
       <div>
         <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
@@ -53,7 +53,7 @@ const Resume = () => {
                 : "border-transparent"
             } resumeLi`}
           >
-            Experience
+            Certification
           </li>
         </ul>
       </div>
