@@ -3,7 +3,7 @@ import Title from "../layouts/Title";
 import {projectTwo} from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 import { ecom } from "../../assets/index";
-import chat from '../..//assets/images/chat.png'
+import chat from '../..//assets/images/projects/chatting.jpg'
 const Projects = () => {
   return (
     <section
@@ -19,7 +19,7 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-6 xl:gap-14">
         <a href="https://fooddelights.netlify.app/" target="_blank" rel="noreferrer">
         <ProjectsCard
-          title="E-commerce Website"
+          title="FoodOrder Website"
           des=""
           src={ecom}
         />
