@@ -105,7 +105,7 @@ const Navbar = () => {
                   </span>
                   <span className="bannerIcon">
                     <a
-                      href="https://www.linkedin.com/in/surya-perumal-039458269/"
+                      href="https://www.linkedin.com/in/suryaperumal/"
                       target="_blank"
                     >
                       <FaLinkedinIn />

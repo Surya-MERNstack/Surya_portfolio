@@ -3,6 +3,7 @@ import Title from "../layouts/Title";
 import {projectTwo, projectThree} from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 import { ecom } from "../../assets/index";
+import chat from '../..//assets/images/chat.png'
 const Projects = () => {
   return (
     <section
@@ -16,7 +17,7 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-6 xl:gap-14">
-        <a href="https://ecomcarts.netlify.app/" target="_blank">
+        <a href="https://fooddelights.netlify.app/" target="_blank">
         <ProjectsCard
           title="E-commerce Website"
           des=""
@@ -28,6 +29,13 @@ const Projects = () => {
           title="Money Manager App"
           des=""
           src={projectTwo}
+        />
+        </a>
+
+        <a href="https://main--chatclient.netlify.app/" target="_blank">
+        <ProjectsCard
+         title="VConnect Chat App"
+         src={chat}
         />
         </a>
       </div>
