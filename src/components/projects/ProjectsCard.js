@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProjectsCard = ({ title, des, src , button, buttons}) => {
+const ProjectsCard = ({ title, des, src , button, buttons,Live}) => {
   return (
     <div className="w-full p-4 xl:px-12 h-auto xl:py-10 rounded-lg shadow-shadowOne flex flex-col bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-gray-900 hover:gray-900 transition-colors duration-1000">
       <div className="w-full h-[80%] overflow-hidden rounded-lg">
@@ -20,9 +20,10 @@ const ProjectsCard = ({ title, des, src , button, buttons}) => {
           <p className="text-sm tracking-wide mt-3 hover:text-gray-100 duration-300">
             {des}
           </p><br/>
-          <div className="flex w-full flex-wrap gap-6">
+          <div className="flex w-full flex-nowrap gap-6">
             {button}
             {buttons}
+            {Live}
           </div>
         </div>
       </div>
