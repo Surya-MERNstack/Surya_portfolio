@@ -26,11 +26,6 @@ const Education = () => {
             subTitle="University of Manonmaniam Sundaranar (2018 - 2019)"
             des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
           />
-          <ResumeCard
-            title="FullStack Developer"
-            subTitle="Guvi (Grab Ur Vernacular Imprint)"
-            des="MernStack Developer I'm immensely thankful to Guvi for their crucial role in my journey as a MERN Stack developer. Their well-structured courses, supportive instructors, and practical projects have been invaluable in enhancing my skills. Guvi's dedication to education has been instrumental in helping me achieve my goals in web development"
-          />
         </div>
       </div>
     </motion.div>

@@ -26,26 +26,23 @@ const Media = () => {
             </a>
           </span>
         </div>
-        <br/>
-        <div className="w-full bannerIcon -ml:23 flex flex-row ">
+      </div>
+      <div className="flex flex-col bannerIcon  my-9  w-40">
+        {/* <h2 className="text-base uppercase font-titleFont ">
+         
+        </h2> */}
+        <div className="flex flex-reverse gap-5">
           <span>
-            <a
+          RESUME
+          </span>
+          <a
               href="https://drive.google.com/file/d/1VElT12KhgyGelLv-x1CVP2_coNMpd1j_/view"
               target="_blank"
               className="hover:text-designColor "
             >
-              RESUME
-              <FaDownload />
+            <FaDownload />
             </a>
-          </span>
-        </div>
-      </div>
-      <div>
-        <h2 className="text-base uppercase font-titleFont mb-4">
-          BEST SKILL ON
-        </h2>
-        <div className="flex gap-4">
-          <span className="bannerIcon">
+          {/* <span className="bannerIcon">
             <FaReact />
           </span>
           <span className="bannerIcon">
@@ -56,7 +53,7 @@ const Media = () => {
           </span>
           <span className="bannerIcon">
             <SiMongodb />
-          </span>
+          </span> */}
         </div>
       </div>
     </div>

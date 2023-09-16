@@ -1,7 +1,8 @@
 import React from "react";
-import {  FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 import { contactImg } from "../../assets/index";
 import { HiOutlineMail } from "react-icons/hi";
+import { BsGithub } from "react-icons/bs";
 
 const ContactLeft = () => {
   return (
@@ -28,13 +29,13 @@ const ContactLeft = () => {
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <a href="mailto:charusurya17@gmail.com" target="_blank">
-              <HiOutlineMail />
+            <a href="https://github.com/Surya-MERNstack" target="_blank">
+              <BsGithub />
             </a>
           </span>
           <span className="bannerIcon">
-            <a href="https://www.instagram.com/charliecarlos_/" target="_blank">
-              <FaInstagram />
+            <a href="mailto:charusurya17@gmail.com" target="_blank">
+              <HiOutlineMail />
             </a>
           </span>
           <span className="bannerIcon">
