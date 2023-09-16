@@ -28,7 +28,7 @@ const Projects = () => {
         >
           <ProjectsCard
             title="FoodOrder Website"
-            des=""
+            des="Food Delight is a Redux-powered food ordering app that allows users to browse and order from a menu of delicious dishes, while providing administrators with a user-friendly panel to add and manage food items seamlessly."
             src={food}
             button={
               <a
@@ -61,7 +61,6 @@ const Projects = () => {
               </a>
             }
           />
-            
         </a>
         <a
           href="https://moneymanages.netlify.app/"
@@ -70,7 +69,7 @@ const Projects = () => {
         >
           <ProjectsCard
             title="Money Manager App"
-            des=""
+            des="Money Manager is a handy financial tool that calculates your expenses and helps you reduce unnecessary spending. It empowers you to take control of your finances and make informed decisions about your budget."
             src={projectTwo}
             button={
               <a
@@ -113,6 +112,7 @@ const Projects = () => {
           <ProjectsCard
             title="VConnect Chat App"
             src={chat}
+            des="VConnect Chat is your passport to global connectivity. With just a simple registration of your name and password, you can instantly connect and chat with people from all corners of the world, fostering meaningful connections and engaging conversations on a global scale. Experience the power of connection with VConnect Chat today."
             button={
               <a
                 href="https://github.com/Surya-MERNstack/chatclient"
@@ -153,6 +153,7 @@ const Projects = () => {
           <ProjectsCard
             title="Gold Calculator"
             src={gold}
+            des="The Gold Calculator is a handy tool that quickly computes the value of gold based on its weight and current market price, assisting users in making informed decisions about their precious metal investments."
             button={
               <a
                 href="https://github.com/Surya-MERNstack/Goldclient"
@@ -160,7 +161,7 @@ const Projects = () => {
                 target="_blank"
               >
                 {" "}
-                FrontEnd 
+                FrontEnd
               </a>
             }
             buttons={
@@ -170,7 +171,7 @@ const Projects = () => {
                 target="_blank"
               >
                 {" "}
-                 BackEnd
+                BackEnd
               </a>
             }
             Live={
