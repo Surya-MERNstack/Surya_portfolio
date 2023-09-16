@@ -112,7 +112,7 @@ const Projects = () => {
           <ProjectsCard
             title="VConnect Chat App"
             src={chat}
-            des="VConnect Chat is your passport to global connectivity. With just a simple registration of your name and password, you can instantly connect and chat with people from all corners of the world, fostering meaningful connections and engaging conversations on a global scale. Experience the power of connection with VConnect Chat today."
+            des="Vconnect Chat, built using Socket.io and React's Context API, offers a user-friendly registration process where users can create an account with their chosen username and password. Once registered, they can instantly connect and chat with people from all corners of the world, fostering global communication and connections in real-time"
             button={
               <a
                 href="https://github.com/Surya-MERNstack/chatclient"
