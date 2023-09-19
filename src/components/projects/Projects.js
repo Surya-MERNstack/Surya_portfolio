@@ -176,7 +176,7 @@ const Projects = () => {
             }
             Live={
               <a
-                href="https://goldsratecalculator.netlify.app/"
+                href="https://goldratescalculator.netlify.app/"
                 className="border-b-black hover:text-designColor bannerIcon w-40 h-11"
                 target="_blank"
               >
