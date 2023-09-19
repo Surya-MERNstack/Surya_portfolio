@@ -146,7 +146,7 @@ const Projects = () => {
         </a>
 
         <a
-          href="https://goldsratecalculator.netlify.app/"
+          href="https://goldratescalculator.netlify.app/"
           target="_blank"
           rel="noreferrer"
         >
