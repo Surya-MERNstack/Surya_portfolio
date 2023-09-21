@@ -1,6 +1,6 @@
 import React from "react";
 import { HiOutlineMail } from "react-icons/hi";
-import { FaDownload,FaLinkedinIn, FaReact, FaNodeJs } from "react-icons/fa";
+import { FaDownload, FaLinkedinIn, FaReact, FaNodeJs } from "react-icons/fa";
 import { SiExpress, SiMongodb } from "react-icons/si";
 import { BsGithub } from "react-icons/bs";
 
@@ -31,17 +31,15 @@ const Media = () => {
         {/* <h2 className="text-base uppercase font-titleFont ">
          
         </h2> */}
-        <div className="flex flex-reverse gap-5">
-          <span>
-          RESUME
-          </span>
+        <div className="flex flex-col gap-5">
           <a
-              href="https://drive.google.com/file/d/1VElT12KhgyGelLv-x1CVP2_coNMpd1j_/view"
-              target="_blank"
-              className="hover:text-designColor "
-            >
+            href="https://drive.google.com/file/d/1VElT12KhgyGelLv-x1CVP2_coNMpd1j_/view"
+            target="_blank"
+            className="hover:text-designColor flex flex-reverse gap-4 "
+          >
+            <span>RESUME</span>
             <FaDownload />
-            </a>
+          </a>
           {/* <span className="bannerIcon">
             <FaReact />
           </span>

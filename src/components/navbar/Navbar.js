@@ -107,16 +107,15 @@ const Navbar = () => {
                   </span>
                 </div>
                 <div className="w-full bannerIcon flex flex-row">
-                    <span>
-                      <a
-                        href="https://drive.google.com/file/d/1VElT12KhgyGelLv-x1CVP2_coNMpd1j_/view"
-                        target="_blank"
-                        className="hover:text-designColor "
-                      >
-                        RESUME<FaDownload />
-                      </a>
-                    </span>
-                  </div>
+                  <a
+                    href="https://drive.google.com/file/d/1VElT12KhgyGelLv-x1CVP2_coNMpd1j_/view"
+                    target="_blank"
+                    className="hover:text-designColor flex flex-reverse gap-4 "
+                  >
+                    <span>RESUME</span>
+                    <FaDownload />
+                  </a>
+                </div>
               </div>
               <span
                 onClick={() => setShowMenu(false)}
