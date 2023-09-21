@@ -122,7 +122,7 @@ const Skills = () => {
           <div>
             <p
               className="text-sm uppercase font-medium bannerIcon hover:text-designColor"
-              style={{ fontSize: "1.5rem", color: "#000000" }}
+              style={{ fontSize: "1.5rem", color: "#fff" }}
             >
               <SiExpress />{" "}
             </p>

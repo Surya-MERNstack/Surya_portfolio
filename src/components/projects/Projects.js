@@ -28,7 +28,7 @@ const Projects = () => {
         >
           <ProjectsCard
             title="FoodOrder Website"
-            des="Food Delight is a Redux-powered food ordering app that allows users to browse and order from a menu of delicious dishes, while providing administrators with a user-friendly panel to add and manage food items seamlessly."
+            des="Food Delight is a Redux-powered food ordering app that allows users to browse and order from a menu of delicious dishes with a user-friendly panel to add and manage food items seamlessly."
             src={food}
             button={
               <a
@@ -112,7 +112,7 @@ const Projects = () => {
           <ProjectsCard
             title="VConnect Chat App"
             src={chat}
-            des="Vconnect Chat, built using Socket.io and React's Context API, offers a user-friendly registration process where users can create an account with their chosen username and password. Once registered, they can instantly connect and chat with people from all corners of the world, fostering global communication and connections in real-time"
+            des="Vconnect Chat, developed with Socket.io and React's Context API, provides a user-friendly registration process. Users can create an account with a chosen username and password, enabling instant global chat connections."
             button={
               <a
                 href="https://github.com/Surya-MERNstack/chatclient"
