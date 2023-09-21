@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaCss3, FaHtml5, FaNodeJs, FaReact } from "react-icons/fa";
-import { SiExpress, SiJavascript, SiMongodb, SiPython,SiMysql } from "react-icons/si";
+import { SiExpress, SiJavascript, SiMongodb, SiPython,SiMysql,SiTailwindcss } from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -57,20 +57,18 @@ const Skills = () => {
           <div>
             <p
               className="text-sm uppercase font-medium bannerIcon hover:text-designColor"
+              style={{ fontSize: "1.5rem", color: "dodgerblue" }}
+            >
+              <SiTailwindcss />
+            </p>
+          </div>
+          <div>
+            <p
+              className="text-sm uppercase font-medium bannerIcon hover:text-designColor"
               style={{ fontSize: "1.5rem", color: "orange" }}
             >
               <SiJavascript />
             </p>
-            {/* <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
-               <motion.span
-                initial={{ x: "-100%", opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
-                transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-full h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
-              >
-                <span className="absolute -top-7 right-0">100%</span>
-              </motion.span> 
-            </span> */}
           </div>
           <div>
             <p
