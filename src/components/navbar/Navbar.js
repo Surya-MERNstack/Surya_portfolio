@@ -108,7 +108,7 @@ const Navbar = () => {
                 </div>
                 <div className="w-full bannerIcon flex flex-row">
                   <a
-                    href="https://drive.google.com/file/d/1F7hOItiZAE-idaR6jBD9eZlO6F-JLPjC/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1PbR0lUR0tLmOl-oZMBR_iKtSV9pu5TS5/view?usp=sharing"
                     target="_blank"
                     className="hover:text-designColor flex flex-reverse gap-4 "
                   >
