@@ -99,7 +99,7 @@ const Navbar = () => {
                   </span>
                   <span className="bannerIcon">
                     <a
-                      href="https://www.linkedin.com/in/suryaperumal/"
+                      href="https://www.linkedin.com/in/surya-perumal-06266b295/"
                       target="_blank"
                     >
                       <FaLinkedinIn />
