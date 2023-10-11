@@ -29,7 +29,7 @@ const Media = () => {
       </div>
       <div className="flex flex-col bannerIcon  my-9  w-40">
         {/* <h2 className="text-base uppercase font-titleFont ">
-         
+          
         </h2> */}
         <div className="flex flex-col gap-5">
           <a
