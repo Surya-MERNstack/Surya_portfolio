@@ -21,7 +21,7 @@ const Media = () => {
             </a>
           </span>
           <span className="bannerIcon">
-            <a href="https://www.linkedin.com/in/surya-perumal/" target="_blank">
+            <a href="https://www.linkedin.com/in/surya-p-546031297" target="_blank">
               <FaLinkedinIn />
             </a>
           </span>
