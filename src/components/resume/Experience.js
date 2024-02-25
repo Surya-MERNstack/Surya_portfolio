@@ -10,7 +10,7 @@ const Experience = () => {
       className="py-12 font-titleFont flex gap-20"
     >
       <div>
-        <div className="mt-14 w-auto   h-auto flex hover:cursor-pointer   flex-wrap ">
+        <div className="mt-14 w-auto   h-auto flex hover:cursor-pointer    flex-wrap gap-5">
           <ResumeCard
             title="HTML5"
             subTitle="Guvi Certification"
