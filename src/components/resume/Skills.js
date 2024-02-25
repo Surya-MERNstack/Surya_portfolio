@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaCss3, FaHtml5, FaNodeJs, FaReact } from "react-icons/fa";
+import { FaCss3, FaGit, FaGitAlt, FaGithub, FaHtml5, FaNodeJs, FaReact } from "react-icons/fa";
 import { SiExpress, SiJavascript, SiMongodb, SiPython,SiMysql,SiTailwindcss } from "react-icons/si";
 
 const Skills = () => {
@@ -187,6 +187,27 @@ const Skills = () => {
                 transition={{ duration: 0.5, delay: 0.5 }}
                 className="w-full h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
               >
+                <span className="absolute -top-7 right-0">100%</span>
+              </motion.span>
+            </span> */}
+          </div>
+          <div>
+            <p
+              className="text-sm uppercase font-medium bannerIcon hover:text-designColor"
+              style={{ fontSize: "1.5rem", color: "#F1502F" }}
+            >
+              <FaGitAlt />{" "}
+            </p>
+            {/* <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-full h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+              >
+
+              The Git Logo Colors with Hex & RGB Codes has 2 colors which are Portland Orange () and American Bronze (#3E2C00).
+
                 <span className="absolute -top-7 right-0">100%</span>
               </motion.span>
             </span> */}

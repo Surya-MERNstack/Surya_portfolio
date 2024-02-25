@@ -1,6 +1,7 @@
 import React from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 import { contactImg } from "../../assets/index";
+import contact from '../../assets/images/contact/contact_1.jpg'
 import { HiOutlineMail } from "react-icons/hi";
 import { BsGithub } from "react-icons/bs";
 
