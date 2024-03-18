@@ -68,6 +68,7 @@ const Navbar = () => {
                     <Link
                       onClick={() => setShowMenu(false)}
                       activeClass="active"
+                      // className={activeClass === "active" ? "text-designColor" : "text-white"}
                       to={item.link}
                       spy={true}
                       smooth={true}
@@ -108,7 +109,7 @@ const Navbar = () => {
                 </div>
                 <div className="w-full bannerIcon flex flex-row">
                   <a
-                    href="https://drive.google.com/file/d/1-_QC5Od46-kX8x3nC4EDqLXO5bsBfaR9/view?usp=sharing"
+                    href="https://drive.google.com/file/d/14CS0R6lErhIDAQfbVOC7aL1_aeIHZT3B/view?usp=sharing"
                     target="_blank"
                     className="hover:text-designColor flex flex-reverse gap-4 "
                   >

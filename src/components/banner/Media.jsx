@@ -33,7 +33,7 @@ const Media = () => {
         </h2> */}
         <div className="flex flex-col gap-5">
           <a
-            href="https://drive.google.com/file/d/1-_QC5Od46-kX8x3nC4EDqLXO5bsBfaR9/view?usp=sharing"
+            href="https://drive.google.com/file/d/14CS0R6lErhIDAQfbVOC7aL1_aeIHZT3B/view?usp=sharing"
             target="_blank"
             className="hover:text-designColor flex flex-reverse gap-4 "
           >
